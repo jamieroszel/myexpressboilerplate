@@ -6,7 +6,7 @@ const mongoose = require("mongoose")
 const { log } = require("mercedlogger")
 // Bring in our database string from .env or default string
 const MONGODB_URL =
-  process.env.MONGODB_URL || "mongodb+srv://new_user:Ykudnr6UXYQEDGT@cluster0.tecvv.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+  process.env.MONGODB_URL || "MongoDB URL GOES HERE"
 
 ///////////////////////////////////
 // Mongoose Configuration Object to Avoid Warnings
